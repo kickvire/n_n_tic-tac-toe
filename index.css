@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: #f7f8f8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #acbb78,
+    #f7f8f8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #acbb78,
+    #f7f8f8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+  padding: 10px;
+  color: #474787;
+  margin: 0 auto 0 auto;
+  width: 300px;
+}
+#top {
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#userinput {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#select {
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+select {
+  height: 30px;
+}
+input[type] {
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+}
+label[for="p2"],
+label[for="p1"],
+label[for="dimension"] {
+  color: #9c27b0;
+  font-size: 20px;
+}
+#game-start {
+  padding: 10px 15px;
+  font-size: 24px;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto 0 auto;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.cell {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #f1c40f;
+}
+.row {
+  display: flex;
+  margin-left: 5px;
+}
+#set {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide {
+  display: none;
+}
+.msg {
+  border: 1px solid red;
+}
